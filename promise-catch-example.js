@@ -1,4 +1,5 @@
 console.log("Before promise");
+
 new Promise(function (resolve, reject) {
 	setTimeout(function () {
 		reject("fail");

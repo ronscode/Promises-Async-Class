@@ -8,7 +8,7 @@ async function f() {
 	}
 }
 async function f() {
-	let response = await fetch();
+	let response = await fetch('https://swapi.dev/api/planets/');
 }
 // f() becomes a rejected promise
 f().catch(alert);
